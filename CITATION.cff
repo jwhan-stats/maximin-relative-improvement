@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+type: software
+title: "Maximin Relative Improvement: Fair Learning as a Bargaining Problem"
+authors:
+  - family-names: Han
+    given-names: Jiwoo
+    affiliation: University of Michigan
+  - family-names: Banerjee
+    given-names: Moulinath
+    affiliation: University of Michigan
+  - family-names: Sun
+    given-names: Yuekai
+    affiliation: University of Michigan
+repository-code: "https://github.com/jwhan-stats/maximin-relative-improvement"
+url: "https://proceedings.mlr.press/v306/han26a.html"
+license: MIT
+keywords:
+  - algorithmic fairness
+  - group fairness
+  - fair machine learning
+  - cooperative bargaining
+  - Kalai-Smorodinsky solution
+  - relative improvement
+  - distributionally robust optimization
+  - Group DRO
+  - minimax regret
+  - folktables
+preferred-citation:
+  type: conference-paper
+  title: "Maximin Relative Improvement: Fair Learning as a Bargaining Problem"
+  authors:
+    - family-names: Han
+      given-names: Jiwoo
+      affiliation: University of Michigan
+    - family-names: Banerjee
+      given-names: Moulinath
+      affiliation: University of Michigan
+    - family-names: Sun
+      given-names: Yuekai
+      affiliation: University of Michigan
+  collection-title: "Proceedings of the 43rd International Conference on Machine Learning"
+  collection-type: proceedings
+  conference:
+    name: "International Conference on Machine Learning (ICML)"
+    city: Seoul
+    country: KR
+    date-start: 2026-07-06
+    date-end: 2026-07-11
+  publisher:
+    name: PMLR
+  volume: 306
+  start: 39539
+  end: 39570
+  year: 2026
+  url: "https://proceedings.mlr.press/v306/han26a.html"
+  identifiers:
+    - type: url
+      value: "https://arxiv.org/abs/2602.04155"
+      description: arXiv preprint

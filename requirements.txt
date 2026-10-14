@@ -1,0 +1,8 @@
+folktables==0.0.12
+numpy==2.3.4
+pandas==2.3.3
+scikit-learn==1.7.2
+torch==2.9.1
+matplotlib==3.10.7
+scipy==1.16.3
+jupyter==1.1.1

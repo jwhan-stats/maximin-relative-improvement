@@ -66,7 +66,10 @@ Each axiom expresses a different fairness requirement, and no criterion satisfie
 ├── oracle_gap_scan_sex_employed.csv          # precomputed output of oracle_gap_scan_employed.ipynb
 ├── oracle_gap_scan_race_binary_employed.csv
 ├── figures_final/                            # experiment figures as they appear in the paper
-└── concept_figures/                          # illustrative figures (Figures 2, 3, 4, 6, 7)
+├── concept_figures/                          # illustrative figures (Figures 2, 3, 4, 6, 7)
+├── requirements.txt
+├── CITATION.cff
+└── LICENSE
 ```
 
 ## 🔁 Reproducing the results
@@ -76,10 +79,10 @@ The experiments use the 2018 American Community Survey (ACS), accessed through [
 ### ⚙️ Setup
 
 ```bash
-pip install folktables numpy pandas scikit-learn torch matplotlib scipy jupyter
+pip install -r requirements.txt
 ```
 
-Tested with Python 3.13.5, folktables 0.0.12, numpy 2.3.4, pandas 2.3.3, scikit-learn 1.7.2, torch 2.9.1, matplotlib 3.10.7 and scipy 1.16.3.
+`requirements.txt` pins the versions the results were reproduced with, on Python 3.13.5.
 
 On the first run, folktables downloads the 2018 ACS 1-Year person files into `scripts/data/`. The files for all 50 states take about 2 GB.
 
@@ -113,6 +116,8 @@ The notebooks in `concept_figures/` draw the figures built on synthetic examples
 | Table 2 | — | 📈 `scripts/summary.ipynb` |
 
 ## 📚 Citation
+
+If you use this code, please cite the paper. GitHub's "Cite this repository" button gives the same reference in APA and BibTeX.
 
 ```bibtex
 @InProceedings{pmlr-v306-han26a,

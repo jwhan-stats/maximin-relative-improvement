@@ -1,6 +1,9 @@
 # ACS data downloaded by folktables (~2 GB)
 scripts/data/
 
+# PNG copies written next to the PDFs when the notebooks are rerun
+figures_final/*.png
+
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
