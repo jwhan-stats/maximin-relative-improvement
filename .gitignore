@@ -1,0 +1,6 @@
+# ACS data downloaded by folktables (~2 GB)
+scripts/data/
+
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
